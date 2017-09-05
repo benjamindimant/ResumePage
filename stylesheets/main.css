@@ -1,0 +1,58 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #f8f9fa;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #222;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 2em;
+}
+
+#navbarCollapse > ul > li.nav-item > a {
+  color: black;
+  transition-duration: 0.2s;
+}
+
+#navbarCollapse > ul > li.nav-item > a:hover {
+  font-weight: bold;
+}
+
+body > .container {
+  padding: 120px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.spacer {
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    background-color: #214660;
+}
