@@ -7,6 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <!-- FontAwesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/main.css">
   </head>
   <body>
@@ -16,53 +19,69 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Fixed navbar</a>
+      <a class="navbar-brand" href="#">benjamin<strong>dimant</strong></a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Download CV</a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="container text-center">
-      <h1 style="font-size: 4.5em">BENJAMIN DIMANT</h1>
-      <h2>Computer Science Student</h2><br>
-    </div>
-    <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col-sm-2">
-          <a href="https://twitter.com/benjamindimant"><i class="fa fa-twitter fa-3x"></i></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://www.instagram.com/benjamindimant/"><i class="fa fa-instagram fa-3x"></i></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://www.facebook.com/benjamin.dimant"><i class="fa fa-facebook fa-3x"></i></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://github.com/benjamindimant"><i class="fa fa-github fa-3x"></i></a>
-        </div>
-        <div class="col-sm-2">
-          <a data-toggle="modal" data-target="#emailaddress"><i class="fa fa-envelope fa-3x"></i></a>
-        </div>
-        <div class="col-sm-2">
-          <a href="https://www.linkedin.com/in/benjamindimant/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    <section id="header">
+      <div class="container-fluid text-center" id="description">
+        <h1 style="font-size: 4.5em">Benjamin Dimant</h1>
+        <h2>Software Developer</h2><br>
+      </div>
+      <div class="container-fluid text-center" id="social-media">
+        <div class="row">
+          <div class="col-sm-2">
+            <a href="https://twitter.com/benjamindimant"><i class="fa fa-twitter fa-3x"></i></a>
+          </div>
+          <div class="col-sm-2">
+            <a href="https://www.instagram.com/benjamindimant"><i class="fa fa-instagram fa-3x"></i></a>
+          </div>
+          <div class="col-sm-2">
+            <a href="https://www.facebook.com/benjamin.dimant"><i class="fa fa-facebook fa-3x"></i></a>
+          </div>
+          <div class="col-sm-2">
+            <a href="https://github.com/benjamindimant"><i class="fa fa-github fa-3x"></i></a>
+          </div>
+          <div class="col-sm-2">
+            <a data-toggle="modal" data-target="#emailaddress"><i class="fa fa-envelope fa-3x"></i></a>
+          </div>
+          <div class="col-sm-2">
+            <a href="https://www.linkedin.com/in/benjamindimant/"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    
+    <section id="about">
+      <div class="container-fluid text-center"><br><br>
+        <h2>About</h2><br>
+        <div class="spacer" /><br><br>
+        
+      </div>
+    </section>
     
     <section id="education">
-      <div class="container-fluid bg-3 text-center"><br><br>
+      <div class="container-fluid text-center"><br><br>
         <h2>Education</h2><br>
-        <div class="spacer" style="background-color: #3498db"></div><br><br>
+        <div class="spacer"/><br><br>
         <div class="row">
           <div class="col-sm-3">
             <p><b>University College School</b><br>A-level/GCSE Student<br>London, UK<br>2008-2015</p>
@@ -143,8 +162,15 @@
     
     <section id="experience">
       <div class="container-fluid bg-3 text-center"><br><br>
+        <h2>Projects</h2><br>
+        <div class="spacer"/><br><br>
+      </div>
+    </section>
+    
+    <section id="experience">
+      <div class="container-fluid bg-3 text-center"><br><br>
         <h2>Experience</h2><br>
-        <div class="spacer" style="background-color: #3498db"></div><br><br>
+        <div class="spacer"/><br><br>
         <div class="row">
           <!-- First Tutors -->
           <div class="col-sm-3">
@@ -152,11 +178,10 @@
             <img src="Images/firsttutors.png" class="img-responsive center-block" style="width:80%" alt="Image">
           </div>
           <div class="col-sm-3">
-            <p style="text-decoration: underline">Overview</p>
-            <ul style="text-align: left">
-              <li>Monitored, assessed, and remediated 14-18 year old student performances in preparation for public examinations.</li>
-              <li>Developed and implemented comprehensive lesson plans designed for each student’s current understanding of the subject.</li>
-            </ul>
+            <div class="info-square">
+              <p>Monitored, assessed, and remediated 14-18 year old student performances in preparation for public examinations.</p>
+              <p>Developed and implemented comprehensive lesson plans designed for each student’s current understanding of the subject.</p>
+            </div>
           </div>
           <!-- Molnar Racing -->
           <div class="col-sm-3">
@@ -164,11 +189,10 @@
             <img src="Images/dezsomolnar.png" class="img-responsive center-block" style="width:100%" alt="Image">
           </div>
           <div class="col-sm-3">
-            <p style="text-decoration: underline">Overview</p>
-            <ul style="text-align: left">
-              <li>Budgeted and sourced specialist components for the construction of the Molnar GT (a street legal aircraft).</li>
-              <li>Member of team of engineers that built the prototype for the vehicle, which was subsequently featured on Bloomberg TV.</li>
-            </ul>
+            <div class="info-square">
+              <p>Budgeted and sourced specialist components for the construction of the Molnar GT (a street legal aircraft).</p>
+              <p>Member of team of engineers that built the prototype for the vehicle, which was subsequently featured on Bloomberg TV.</p>
+            </div>
           </div>
         </div><br><br>
         <div class="row">
@@ -178,11 +202,10 @@
             <img src="Images/mumbojumbo.png" class="img-responsive center-block" style="width:65%" alt="Image">
           </div>
           <div class="col-sm-3">
-            <p style="text-decoration: underline">Overview</p>
-            <ul style="text-align: left">
-              <li>Assisted in the development and design of applications for release on the AppStore using Xcode.</li>
-              <li>Reviewed technical literature and attended Game Developers Conference to provide market research for the advertising of new products in the casual game industry.</li>
-            </ul>
+            <div class="info-square">
+              <p>Assisted in the development and design of applications for release on the AppStore using Xcode.</p>
+              <p>Reviewed technical literature and attended Game Developers Conference to provide market research for the advertising of new products in the casual game industry.</p>
+            </div>
           </div>
           <!-- Cambridge Coding Academy -->
           <div class="col-sm-3">
@@ -190,11 +213,10 @@
             <img src="Images/CCA.png" class="img-responsive center-block" style="width: 50%" alt="Image">
           </div>
           <div class="col-sm-3">
-            <p style="text-decoration: underline">Overview</p>
-            <ul style="text-align: left">
-              <li>Responsible for teaching multiple groups of 14-18 year old students how to build web applications using HTML, CSS and JavaScript.</li>
-              <li>Attended events to help promote and market the course and careers in Computer Science to students in numerous schools across the UK.</li>
-            </ul>
+            <div class="info-square">
+              <p>Responsible for teaching multiple groups of 14-18 year old students how to build web applications using HTML, CSS and JavaScript.</p>
+              <p>Attended events to help promote and market the course and careers in Computer Science to students in numerous schools across the UK.</p>
+            </div>
           </div>  
         </div><br><br>
       </div>
@@ -203,8 +225,8 @@
     <section id="downloadcv">
       <div class="container-fluid bg-3 text-center"><br><br>
         <h2>Download My CV</h2><br>
-        <div class="spacer" style="background-color: #3498db"></div><br><br>
-        <button type="button" class="btn btn-primary btn-lg" syle="background-color: #6dd280">Download</button><br><br><br><br>
+        <div class="spacer"/><br><br>
+        <button type="submit" class="btn btn-success btn lg">Download</button><br><br><br><br>
       </div>
     </section>
     
