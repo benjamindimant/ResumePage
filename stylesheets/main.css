@@ -5,14 +5,14 @@ html {
 
 body {
   /* Margin bottom by footer height */
+  min-height: 100%;
   margin-bottom: 60px;
   background-color: #f8f9fa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body > nav {
-  background-color: #f8f9fa;
-  box-shadow: 0 0 100px 1px #f8f9fa;
+  transition-duration: 0.4s;
 }
 
 .footer {
@@ -31,7 +31,9 @@ body > nav {
 }
 
 #header {
-  margin-top: 200px;
+  padding-top: 15%;
+  height: 100vh;
+  width: 100wh;
 }
 
 #description {
@@ -39,7 +41,7 @@ body > nav {
 }
 
 #social-media {
-  margin: 60px;
+  margin: 60px 60px 0 60px;
 }
 
 #social-media > div > div > a > i {
@@ -59,6 +61,34 @@ body > nav {
 
 #navbarCollapse > ul > li.nav-item > a:hover {
   font-weight: bold;
+}
+
+#about {
+  padding-top: 60px;
+  height: 120vh;
+  background-color: #222;
+  color: #f8f9fa;
+}
+
+#education {
+  padding-top: 60px;
+  height: 120vh;
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+#experience {
+  padding-top: 60px;
+  height: 120vh;
+  background-color: #222;
+  color: #f8f9fa;
+}
+
+#projects {
+  padding-top: 60px;
+  height: 120vh;
+  background-color: #f8f9fa;
+  color: #222;
 }
 
 .footer > .container {
