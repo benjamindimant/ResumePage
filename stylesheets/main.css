@@ -26,8 +26,8 @@ body > nav {
 }
 
 .navbar-brand {
-  color: black;
   font-size: 2em;
+  transition-duration: 0.4s;
 }
 
 #header {
@@ -55,8 +55,7 @@ body > nav {
 
 #navbarCollapse > ul > li.nav-item > a {
   font-size: 1.1rem;
-  color: black;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 
 #navbarCollapse > ul > li.nav-item > a:hover {
@@ -68,6 +67,30 @@ body > nav {
   height: 120vh;
   background-color: #222;
   color: #f8f9fa;
+}
+
+#about > .container-fluid > .row > * {
+  padding: 0 3em 0 3em;
+}
+
+#about > .container-fluid > .row > .col-md-8 > h3 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#about > .container-fluid > .row > .col-md-8 > h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#about > .container-fluid > .row > .col-md-8 > p {
+  font-size: 1.15em;
+}
+
+#about > .container-fluid > .row > .col-md-4 > img {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px solid #3498db;
 }
 
 #education {
@@ -112,19 +135,17 @@ body > nav {
   border-color: #3498db;
 }
 
-code {
-  font-size: 80%;
-}
-
 .navbar-inner {
   background:transparent;
 }
 
 .spacer {
+  margin: 10px 0 10px 0;
+  display: block;
   width: 100px;
   height: 2px;
   background-color: #3498db;
-  margin: auto;
+  float: center;
 }
 
 #downloadcv > div > button {
