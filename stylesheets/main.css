@@ -69,7 +69,7 @@ body > nav {
 }
 
 #about {
-  padding: 60px 100px 0 100px;
+  padding: 60px 100px 60px 100px;
   height: 120vh;
   background-color: #222;
   color: #f8f9fa;
@@ -95,21 +95,39 @@ body > nav {
 }
 
 #education {
-  padding: 60px 100px 0 100px;
-  height: 120vh;
+  padding: 60px 100px 60px 100px;
   background-color: #f8f9fa;
   color: #222;
 }
 
 #experience {
-  padding: 60px 100px 0 100px;
-  height: 120vh;
+  padding: 60px 100px 60px 100px;
+  min-height: 120vh;
   background-color: #222;
   color: #f8f9fa;
 }
 
+#education > .container-fluid > .row > .col-md-4 > .card > img {
+  width: 100%;
+  padding: 30px 10px 0 10px;
+}
+
+#education > .container-fluid > .row > .col-md-4 > .card {
+  margin: 20px;
+  width: 100%;
+}
+
+#education > .container-fluid > .row > .col-md-4 > .card > .card-block > .card-text {
+  margin: 0
+}
+
+#education > .container-fluid > .row > .col-md-8 > .card {
+  margin: 20px;
+  height: 92.5%;
+}
+
 #projects {
-  padding: 60px 100px 0 100px;
+  padding: 60px 100px 60px 100px;
   background-color: #f8f9fa;
   color: #222;
 }
