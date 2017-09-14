@@ -31,6 +31,7 @@ body > nav {
 
 .navbar-brand {
   font-size: 2em;
+  color: #222;
   transition-duration: 0.4s;
 }
 
@@ -58,6 +59,7 @@ body > nav {
 }
 
 #navbarCollapse > ul > li.nav-item > a {
+  color: #222;
   font-size: 1.1rem;
   transition-duration: 0.4s;
 }
@@ -67,14 +69,10 @@ body > nav {
 }
 
 #about {
-  padding-top: 60px;
+  padding: 60px 100px 0 100px;
   height: 120vh;
   background-color: #222;
   color: #f8f9fa;
-}
-
-#about > .container-fluid > .row > * {
-  padding: 0 3em 0 3em;
 }
 
 #about > .container-fluid > .row > .col-md-8 > h3 {
@@ -97,24 +95,39 @@ body > nav {
 }
 
 #education {
-  padding-top: 60px;
+  padding: 60px 100px 0 100px;
   height: 120vh;
   background-color: #f8f9fa;
   color: #222;
 }
 
 #experience {
-  padding-top: 60px;
+  padding: 60px 100px 0 100px;
   height: 120vh;
   background-color: #222;
   color: #f8f9fa;
 }
 
 #projects {
-  padding-top: 60px;
-  height: 120vh;
+  padding: 60px 100px 0 100px;
   background-color: #f8f9fa;
   color: #222;
+}
+
+.project {
+  padding: 0 30px 0 30px;
+}
+
+.project-image {
+  margin: 20px 0 20px 0;
+}
+
+.project-description {
+  margin: 30px;
+}
+
+.project-description > h3 {
+  font-weight: bold;
 }
 
 .footer > .container {
@@ -143,12 +156,10 @@ body > nav {
 }
 
 .spacer {
-  margin: 10px 0 10px 0;
-  display: block;
+  margin: 0 0 30px 0;
   width: 100px;
   height: 2px;
   background-color: #3498db;
-  float: center;
 }
 
 #downloadcv > div > button {
