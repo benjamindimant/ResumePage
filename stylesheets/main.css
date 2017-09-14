@@ -102,19 +102,20 @@ body > nav {
 
 #experience {
   padding: 60px 100px 60px 100px;
-  min-height: 120vh;
   background-color: #222;
   color: #f8f9fa;
 }
 
-#education > .container-fluid > .row > .col-md-4 > .card > img {
-  width: 100%;
-  padding: 30px 10px 0 10px;
-}
-
 #education > .container-fluid > .row > .col-md-4 > .card {
+  height: 75%;
   margin: 20px;
   width: 100%;
+}
+
+#education > .container-fluid > .row > .col-md-4 > .card > img {
+  height: 60%;
+  width: 100%;
+  padding: 20px 10px 0 10px;
 }
 
 #education > .container-fluid > .row > .col-md-4 > .card > .card-block > .card-text {
@@ -123,7 +124,7 @@ body > nav {
 
 #education > .container-fluid > .row > .col-md-8 > .card {
   margin: 20px;
-  height: 92.5%;
+  height: 75%;
 }
 
 #projects {
