@@ -100,25 +100,32 @@ body > nav {
   color: #222;
 }
 
-#education > .container-fluid > .row > .col-md-4 > .card {
-  height: 75%;
-  margin: 20px;
+#education > .container-fluid > .flex-row > .p-1 {
+  flex: 1
+}
+
+#education > .container-fluid > .flex-row > .card {
+  margin: 1rem;
+}
+
+#education > .container-fluid > .flex-row > .d-flex > .card-block > .d-flex > .p-1 {
+  flex: 1;
+}
+
+#education > .container-fluid > .flex-row > .d-flex > .card-block > .d-flex > .p-2 {
+  flex: 2;
+}
+
+#education > .container-fluid > .flex-row > .p-2 {
+  flex: 2
+}
+
+#education > .container-fluid > .flex-row > .p-1 > img {
   width: 100%;
 }
 
-#education > .container-fluid > .row > .col-md-4 > .card > img {
-  height: 60%;
-  width: 100%;
-  padding: 20px 10px 0 10px;
-}
-
-#education > .container-fluid > .row > .col-md-4 > .card > .card-block > .card-text {
-  margin: 0
-}
-
-#education > .container-fluid > .row > .col-md-8 > .card {
-  margin: 20px;
-  height: 75%;
+#education > .container-fluid > .flex-row > .p-1 > .card-block > .card-text {
+  margin: 0;
 }
 
 #skills {

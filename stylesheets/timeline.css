@@ -90,7 +90,8 @@
   text-align: center;
   font-size: 12px;
   padding-bottom: 15px;
-  color: #f8f9fa;
+  color: #222;
+  font-weight: bold;
   text-decoration: none;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
