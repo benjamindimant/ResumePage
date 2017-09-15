@@ -100,12 +100,6 @@ body > nav {
   color: #222;
 }
 
-#experience {
-  padding: 60px 100px 60px 100px;
-  background-color: #222;
-  color: #f8f9fa;
-}
-
 #education > .container-fluid > .row > .col-md-4 > .card {
   height: 75%;
   margin: 20px;
@@ -127,10 +121,49 @@ body > nav {
   height: 75%;
 }
 
-#projects {
+#skills {
+  padding: 60px 100px 60px 100px;
+  background-color: #222;
+  color: #f8f9fa;
+}
+
+#skills > .container-fluid > .d-flex {
+  justify-content: center;
+}
+
+#skills > .container-fluid > .d-flex > .card {
+  height: 13rem;
+  width: 13rem;
+  margin: 20px;
+}
+
+#skills > .container-fluid > .d-flex > .card > img {
+  max-height: 70%;
+  max-width: 70%;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+}
+
+#skills > .container-fluid > .d-flex > .card > .card-block {
+  margin-top: 0;
+  padding: 0;
+}
+
+#skills > .container-fluid > .d-flex > .card > .card-block > .card-title {
+  color: #222;
+  margin-top: 0;
+  font-size: 2em;
+}
+
+#experience {
   padding: 60px 100px 60px 100px;
   background-color: #f8f9fa;
   color: #222;
+}
+
+#projects {
+  padding: 60px 100px 60px 100px;
+  background-color: #222;
+  color: #f8f9fa;
 }
 
 .project {

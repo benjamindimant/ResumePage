@@ -39,13 +39,13 @@
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient( left , #222, rgba(248, 248, 248, 0));
-  background-image: linear-gradient(to right, #222, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient( left , #f8f9fa, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to right, #f8f9fa, rgba(248, 248, 248, 0));
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient( right , #222, rgba(248, 248, 248, 0));
-  background-image: linear-gradient(to left, #222, rgba(248, 248, 248, 0));
+  background-image: -webkit-linear-gradient( right , #f8f9fa, rgba(248, 248, 248, 0));
+  background-image: linear-gradient(to left, #f8f9fa, rgba(248, 248, 248, 0));
 }
 .cd-horizontal-timeline .events {
   /* this is the grey line/timeline */
@@ -68,7 +68,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #6dd280;
+  background-color: #3498db;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -122,18 +122,18 @@
   transition: background-color 0.3s, border-color 0.3s;
 }
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #6dd280;
-  border-color: #6dd280;
+  background-color: #3498db;
+  border-color: #3498db;
 }
 .cd-horizontal-timeline .events a.selected {
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #6dd280;
-  border-color: #6dd280;
+  background-color: #3498db;
+  border-color: #3498db;
 }
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #6dd280;
+  border-color: #3498db;
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
@@ -198,7 +198,7 @@
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #6dd280;
+  border-color: #3498db;
 }
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed;

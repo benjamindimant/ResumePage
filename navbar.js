@@ -1,7 +1,9 @@
 $(document).scroll(function() {
   if ($(this).scrollTop() >= $("#projects").offset().top - 40) {
-    $('#navbarCollapse > ul > li.nav-item > a').css({"color": "#222"});
+    $('#navbarCollapse > ul > li.nav-item > a').css({"color": "#f8f9fa"});
   } else if ($(this).scrollTop() >= $("#experience").offset().top - 40) {
+    $('#navbarCollapse > ul > li.nav-item > a').css({"color": "#222"});
+  } else if ($(this).scrollTop() >= $("#skills").offset().top - 40) {
     $('#navbarCollapse > ul > li.nav-item > a').css({"color": "#f8f9fa"});
   } else if ($(this).scrollTop() >= $("#education").offset().top - 40) {
     $('#navbarCollapse > ul > li.nav-item > a').css({"color": "#222"});
@@ -14,8 +16,10 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   if ($(this).scrollTop() >= $("#projects").offset().top - 40) {
-    $('.navbar-brand').css({"color": "#222"});
+    $('.navbar-brand').css({"color": "#f8f9fa"});
   } else if ($(this).scrollTop() >= $("#experience").offset().top - 40) {
+    $('.navbar-brand').css({"color": "#222"});
+  } else if ($(this).scrollTop() >= $("#skills").offset().top - 40) {
     $('.navbar-brand').css({"color": "#f8f9fa"});
   } else if ($(this).scrollTop() >= $("#education").offset().top - 40) {
     $('.navbar-brand').css({"color": "#222"});
