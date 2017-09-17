@@ -114,6 +114,7 @@ body > nav {
 
 #education > .container-fluid > .flex-row > .d-flex > .card-block > .d-flex > .p-2 {
   flex: 2;
+  padding: 0.25rem 0.25rem!important;
 }
 
 #education > .container-fluid > .flex-row > .p-2 {
@@ -211,7 +212,7 @@ body > nav {
 }
 
 .navbar-inner {
-  background:transparent;
+  background: transparent;
 }
 
 .spacer {

@@ -29,3 +29,19 @@ $(document).scroll(function() {
     $('.navbar-brand').css({"color": "#222"});
   }
 });
+
+$(document).scroll(function() {
+  if ($(this).scrollTop() >= $("#projects").offset().top - 40) {
+    $('nav').css({"background-color": "#222"});
+  } else if ($(this).scrollTop() >= $("#experience").offset().top - 40) {
+    $('nav').css({"background-color": "#f8f9fa"});
+  } else if ($(this).scrollTop() >= $("#skills").offset().top - 40) {
+    $('nav').css({"background-color": "#222"});
+  } else if ($(this).scrollTop() >= $("#education").offset().top - 40) {
+    $('nav').css({"background-color": "#f8f9fa"});
+  } else if ($(this).scrollTop() >= $("#about").offset().top - 40) {
+    $('nav').css({"background-color": "#222"});
+  } else {  
+    $('nav').css({"background-color": "#f8f9fa"});
+  }
+});
