@@ -74,7 +74,7 @@ body > nav {
 }
 
 #about {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #222;
   color: #f8f9fa;
 }
@@ -98,7 +98,7 @@ body > nav {
 }
 
 #education {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #f8f9fa;
   color: #222;
 }
@@ -133,7 +133,7 @@ body > nav {
 }
 
 #skills {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #222;
   color: #f8f9fa;
 }
@@ -166,13 +166,13 @@ body > nav {
 }
 
 #experience {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #f8f9fa;
   color: #222;
 }
 
 #projects {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #222;
   color: #f8f9fa;
 }
@@ -194,7 +194,7 @@ body > nav {
 }
 
 #contact {
-  padding: 60px 100px 60px 100px;
+  padding: 4% 8% 4% 8%;
   background-color: #f8f9fa;
   height: 100vh;
   color: #222;
