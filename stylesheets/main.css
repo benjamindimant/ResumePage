@@ -86,7 +86,7 @@ body > nav {
 
 #about > .container-fluid > .row > .col-md-8 > h2 {
   font-size: 3em;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 #about > .container-fluid > .row > .col-md-8 > p {
@@ -95,7 +95,6 @@ body > nav {
 
 #about > .container-fluid > .row > .col-md-4 > img {
   border-radius: 50%;
-  width: 100%;
 }
 
 #education {
@@ -197,6 +196,7 @@ body > nav {
 #contact {
   padding: 60px 100px 60px 100px;
   background-color: #f8f9fa;
+  height: 100vh;
   color: #222;
 }
 
