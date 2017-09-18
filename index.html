@@ -11,9 +11,6 @@
     <!-- Modernizr -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" rel="stylesheet">
     
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
     <!-- FontAwesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     
@@ -23,7 +20,7 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-toggleable-md fixed-top">
+    <nav class="navbar navbar-inverse navbar-toggleable-md navbar-bg-inverse fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -108,7 +105,7 @@
     <section id="education">
       <div class="container-fluid"><br><br>
         <h1>Education</h1><br>
-        <div class="d-flex flex-row">
+        <div class="row d-flex flex-row">
           <div class="card text-center d-flex p-1">
             <img class="card-img-top" src="assets/iclcrest.png" alt="Card image cap">
             <div class="card-block">
@@ -142,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="d-flex flex-row">
+        <div class="row d-flex flex-row">
           <div class="card text-center d-flex p-1">
             <img class="card-img-top" src="assets/ucscrest.png" alt="Card image cap">
             <div class="card-block">
@@ -241,9 +238,9 @@
             </div>
           </div>
           <div class="card text-center">
-            <img class="card-img-top" src="assets/nodejs.png" alt="Card image cap">
+            <img class="card-img-top" src="assets/firebase.png" alt="Card image cap">
             <div class="card-block">
-              <h4 class="card-title">Node.js</h4>
+              <h4 class="card-title">Firebase</h4>
             </div>
           </div>
           <div class="card text-center">
@@ -294,10 +291,7 @@
                 <h2>Personal Tutor (London, UK)</h2>
                 <em>October '15 - March '16</em>
                 <p>	
-                  Monitored, assessed, and remediated 14-18 year old student performances in preparation for public examinations.
-                </p>
-                <p>
-                  Developed and implemented comprehensive lesson plans designed for each student’s current understanding of the subject.
+                  I tutoured A-level and GCSE students in Mathematics, Physics, Chemistry and was responsible for monitoring, assessing, and remediating 14-18 year old students' performances in preparation for public examinations. Each week, I developed and implemented comprehensive lesson plans designed for each student’s current understanding of the subject.
                 </p>
               </li>
 
@@ -305,10 +299,7 @@
                 <h2>Dezso Molnar (Los Angeles, CA)</h2>
                 <em>March '16 - May '16</em>
                 <p>	
-                  Budgeted for and sourced specialist components for the construction of the Molnar G2 (a street legal aircraft).
-                </p>
-                <p>
-                  Member of team of engineers that built the prototype for the vehicle, which was subsequently featured on Bloomberg TV.
+                  I budgeted for and sourced specialist components for the construction of the Molnar G2 (a street legal aircraft), and was a member of the team of engineers that built the prototype for the vehicle, which subsequently featured on Bloomberg TV.
                 </p>
               </li>
 
@@ -332,13 +323,7 @@
                 <h2>Cambridge Coding Academy (Cambridge, UK)</h2>
                 <em>July '17 - August '17</em>
                 <p>	
-                  Responsible for teaching multiple groups of 14-18 year old students how to build web applications using HTML, CSS and JavaScript.
-                </p>
-                <p>
-                  Attended events to help promote and market the course and careers in Computer Science to students in numerous schools across the UK.
-                </p>
-                <p>
-                  Developed extensions to the codebase used for teaching students and implemented lesson plans to convey the new key concepts.
+                  I was responsible for teaching multiple groups of 14-18 year old students how to build web applications using HTML, CSS and JavaScript. In preparation for teaching the course, I attended events to help promote careers in Computer Science to students in numerous schools across the UK. I also developed extensions to the codebase used for teaching students and implemented lesson plans to convey the new key concepts.
                 </p>
               </li>
 
@@ -363,7 +348,7 @@
       <div class="container-fluid"><br><br>
         <h1>Projects</h1><br>
         <div class="row project">
-          <div class="row project-image">
+          <div class="col-md-12 text-center project-image">
             <img src="http://via.placeholder.com/800x350" alt="failed-to-load" class="img-fluid"/>
           </div>
           <div class="row project-description">
@@ -373,26 +358,55 @@
         </div>
         <div class="spacer"></div>
         <div class="row project">
-          <div class="row project-image">
+          <div class="col-md-12 text-center project-image">
             <img src="http://via.placeholder.com/800x350" alt="failed-to-load" class="img-fluid"/>
           </div>
           <div class="row project-description">
-            <h3>Crowd DJ</h3>
-            <p>Crowd DJ is a web app that allows people who are at a party or social gathering with a DJ (who uses Spotify) to request songs via their smartphones. The web app allows people to see the currently playing song, request songs, upvote songs, and rate songs so the DJ can see how the crowd is feeling and act accordingly. In other words, Crowd DJ is essentially a crowdsourced music queue.</p>
+            <h3>Mystery Name</h3>
+            <p>
+              I am a co-founder of a London-based start-up which aims to change the way that students make money during their time at university. I have built a full-stack web application and cross-platform mobile application using React and React Native respectively (among other technologies). For more information or a demonstration of the applications, do not hesitate to contact me using the form below.
+            </p>
           </div>
         </div>
         <div class="spacer"></div>
+        <div class="col-md-12 text-center">
+          <h3>See more on GitHub</h3>
+          <a href="https://github.com/benjamindimant"><i class="fa fa-github fa-3x"></i></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="container-fluid"><br><br>
+        <h1>Contact</h1><br>
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-md-1 col-form-label">Email</label>
+            <div class="col-md-11">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea">Message</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
     
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted">&copy; Benjamin Dimant 2017</span>
       </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="navbar.js"></script>
     <script src="js/timeline.js"></script>
