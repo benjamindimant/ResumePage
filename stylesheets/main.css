@@ -46,6 +46,10 @@ body > nav {
   width: 100wh;
 }
 
+#header > .container-fluid > .d-flex > .p-1 {
+  margin: 0 8% 0 8%;
+}
+
 #description {
   margin-top: 60px;
 }
@@ -86,7 +90,7 @@ body > nav {
 
 #about > .container-fluid > .row > .col-md-8 > h2 {
   font-size: 3em;
-  margin: 20px 0 20px 0;
+  margin: 2% 0 4% 0;
 }
 
 #about > .container-fluid > .row > .col-md-8 > p {
@@ -126,6 +130,7 @@ body > nav {
 
 #education > .container-fluid > .flex-row > .p-1 > img {
   width: 100%;
+  padding-top: 1em
 }
 
 #education > .container-fluid > .flex-row > .p-1 > .card-block > .card-text {
@@ -226,7 +231,7 @@ body > nav {
 }
 
 .spacer {
-  margin: 0 0 30px 0;
+  margin: 1% 0 1% 0;
   width: 100px;
   height: 2px;
   background-color: #3498db;
