@@ -78,7 +78,7 @@ body > nav {
 }
 
 #about {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 8% 8%;
   background-color: #222;
   color: #f8f9fa;
 }
@@ -102,7 +102,7 @@ body > nav {
 }
 
 #education {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 8% 8%;
   background-color: #f8f9fa;
   color: #222;
 }
@@ -138,7 +138,7 @@ body > nav {
 }
 
 #skills {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 8% 8%;
   background-color: #222;
   color: #f8f9fa;
 }
@@ -171,15 +171,19 @@ body > nav {
 }
 
 #experience {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 8% 8%;
   background-color: #f8f9fa;
   color: #222;
 }
 
 #projects {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 8% 8%;
   background-color: #222;
   color: #f8f9fa;
+}
+
+#projects > .container-fluid > .col-md-12 > a {
+  transition-duration: 0.2s;
 }
 
 .project {
@@ -199,7 +203,7 @@ body > nav {
 }
 
 #contact {
-  padding: 4% 8% 4% 8%;
+  padding: 8% 8% 0 8%;
   background-color: #f8f9fa;
   height: 100vh;
   color: #222;
