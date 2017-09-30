@@ -195,9 +195,10 @@ body > nav {
 }
 
 .project-image > div > div > img {
-  max-height: 400px;
+  height: 400px;
+  box-shadow: 0 0 8px 8px #222;
+  border-radius: 5px;
   margin: auto;
-  width: 80%;
 }
 
 @media screen and (max-width: 780px) { 
