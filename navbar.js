@@ -36,18 +36,18 @@ $(document).scroll(function() {
 
 $(document).scroll(function() {
   if ($(this).scrollTop() >= $("#contact").offset().top - 40) {
-    $('nav').css({"background-color": "#f8f9fa"});
+    $('nav').css({"background-color": "#f8f9fa", "box-shadow": "0 0 5px 10px #f8f9fa"});
   } else if ($(this).scrollTop() >= $("#projects").offset().top - 40) {
-    $('nav').css({"background-color": "#222"});
+    $('nav').css({"background-color": "#222", "box-shadow": "0 0 5px 10px #222"});
   } else if ($(this).scrollTop() >= $("#experience").offset().top - 40) {
-    $('nav').css({"background-color": "#f8f9fa"});
+    $('nav').css({"background-color": "#f8f9fa", "box-shadow": "0 0 5px 10px #f8f9fa"});
   } else if ($(this).scrollTop() >= $("#skills").offset().top - 40) {
-    $('nav').css({"background-color": "#222"});
+    $('nav').css({"background-color": "#222", "box-shadow": "0 0 5px 10px #222"});
   } else if ($(this).scrollTop() >= $("#education").offset().top - 40) {
-    $('nav').css({"background-color": "#f8f9fa"});
+    $('nav').css({"background-color": "#f8f9fa", "box-shadow": "0 0 5px 10px #f8f9fa"});
   } else if ($(this).scrollTop() >= $("#about").offset().top - 40) {
-    $('nav').css({"background-color": "#222"});
+    $('nav').css({"background-color": "#222", "box-shadow": "0 0 5px 10px #222"});
   } else {  
-    $('nav').css({"background-color": "#f8f9fa"});
+    $('nav').css({"background-color": "#f8f9fa", "box-shadow": "0 0 5px 10px #f8f9fa"});
   }
 });
