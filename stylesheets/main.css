@@ -194,6 +194,18 @@ body > nav {
   margin: 20px 0 20px 0;
 }
 
+.project-image > div > div > img {
+  max-height: 400px;
+  margin: auto;
+  width: 80%;
+}
+
+@media screen and (max-width: 780px) { 
+  .carousel-inner {
+    display: none;
+  }
+}
+
 .project-description {
   margin: 30px;
 }
