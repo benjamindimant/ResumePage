@@ -490,10 +490,19 @@ button:focus,
     margin-bottom: 40px;
 }
 
+.flex-item:last-child {
+    margin-bottom: 0;
+}
+
 .flex-img {
     width: 75px;
     text-align: center;
     margin-right: 15px;
+}
+
+.flex-description {
+    flex: 5;
+    justify-content: flex-start;
 }
 
 .flex-item h3 {
@@ -513,6 +522,18 @@ button:focus,
 
 .flex-item p {
     margin: 0;
+}
+
+
+
+#big-venn {
+    display: none !important;
+}
+
+circle {
+    fill: none;
+    stroke: #999999;
+    stroke-width: 3px;
 }
 
 /*-------------------

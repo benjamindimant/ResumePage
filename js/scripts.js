@@ -18,4 +18,7 @@ jQuery(function ($) {
 
     $('.left-col-block, .right-col-block').theiaStickySidebar();
 
+    $(window).bind('resize', function () {
+        window.location.href = window.location.href;
+    });
 }); // JQuery end
