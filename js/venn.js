@@ -134,7 +134,7 @@ function colorSection(points, color, type) {
     .attr("d", shape)
     .attr("class", "segment")
     .attr("fill", color)
-    .attr("opacity", 0.4)
+    .attr("opacity", 0.6)
 }
 
 // Color in
@@ -154,10 +154,13 @@ g.selectAll("path.segment")
       .attr("opacity", 0.8)
       .duration(500)
   })
+  .on("click", function (x) {
+    alert('hi');
+  })
   .on("mouseout", function () {
     d3.select(this)
       .transition()
-      .attr("opacity", 0.4)
+      .attr("opacity", 0.6)
       .duration(500)
   })
 
