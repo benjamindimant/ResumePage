@@ -115,7 +115,7 @@ const makeAllIntersectionShape = ([x1, x2, x3, y1, y2, y3]) => {
   return path
 }
 
-function colorSection(points, color, type) {
+function createSegment(name, points, color, type) {
   const ptCycle = points.map(i => xPoints[i - 1]).concat(
     points.map(i => yPoints[i - 1])
   );
@@ -131,6 +131,9 @@ function colorSection(points, color, type) {
       shape = makeAllIntersectionShape(ptCycle);
   }
   g.append("path")
+    .attr("data-toggle", "modal")
+    .attr("data-target", "#" + name + "Modal")
+    .attr("id", name)
     .attr("d", shape)
     .attr("class", "segment")
     .attr("fill", color)
@@ -138,27 +141,26 @@ function colorSection(points, color, type) {
 }
 
 // Color in
-colorSection([1, 6, 2], "#8c1515", "NONE");
-colorSection([2, 4, 3], "#175e54", "NONE");
-colorSection([3, 5, 1], "#007c92", "NONE");
-colorSection([1, 5, 6], "#53284f", "ONE");
-colorSection([3, 4, 5], "#00505c", "ONE")
-colorSection([2, 6, 4], "#8d3c1e", "ONE")
-colorSection([5, 4, 6], "#eaab00")
+createSegment("f", [1, 6, 2], "#8c1515", "NONE");
+createSegment("l", [3, 5, 1], "#007c92", "NONE");
+createSegment("c", [2, 4, 3], "#175e54", "NONE");
+createSegment("fl", [1, 5, 6], "#53284f", "ONE");
+createSegment("lc", [3, 4, 5], "#00505c", "ONE")
+createSegment("fc", [2, 6, 4], "#8d3c1e", "ONE")
+createSegment("flc", [5, 4, 6], "#eaab00")
 
 
 g.selectAll("path.segment")
   .on("mouseover", function () {
     d3.select(this)
+      .style("cursor", "pointer")
       .transition()
       .attr("opacity", 0.8)
       .duration(500)
   })
-  .on("click", function (x) {
-    alert('hi');
-  })
   .on("mouseout", function () {
     d3.select(this)
+      .style("cursor", "default")
       .transition()
       .attr("opacity", 0.6)
       .duration(500)

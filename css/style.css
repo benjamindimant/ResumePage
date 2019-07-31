@@ -524,7 +524,9 @@ button:focus,
     margin: 0;
 }
 
-
+.modal h5 {
+    font-size: 2em;
+}
 
 #big-venn {
     display: none !important;
@@ -534,6 +536,14 @@ circle {
     fill: none;
     stroke: #999999;
     stroke-width: 3px;
+}
+
+.modal-header {
+    display: flex;
+}
+
+.modal-header > .modal-title {
+    flex: 1;
 }
 
 /*-------------------
