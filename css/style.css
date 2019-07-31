@@ -476,7 +476,7 @@ button:focus,
 
 .content-item small {
     color : #888888;
-    }
+}
 
 .content-img {
     height: 80px;
@@ -488,10 +488,6 @@ button:focus,
 .flex-item {
     display: flex;
     margin-bottom: 40px;
-}
-
-.flex-item:last-child {
-    margin-bottom: 0;
 }
 
 .flex-img {
@@ -544,6 +540,11 @@ circle {
 
 .modal-header > .modal-title {
     flex: 1;
+}
+
+.portfolio-info p {
+    line-height: 1;
+    margin: 8px 0;
 }
 
 /*-------------------
