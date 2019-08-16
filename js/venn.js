@@ -137,7 +137,7 @@ function createSegment(name, points, color, type) {
     .attr("d", shape)
     .attr("class", "segment")
     .attr("fill", color)
-    .attr("opacity", 0.6)
+    .attr("opacity", 0.8)
 }
 
 // Color in
@@ -155,14 +155,14 @@ g.selectAll("path.segment")
     d3.select(this)
       .style("cursor", "pointer")
       .transition()
-      .attr("opacity", 0.8)
+      .attr("opacity", 1)
       .duration(500)
   })
   .on("mouseout", function () {
     d3.select(this)
       .style("cursor", "default")
       .transition()
-      .attr("opacity", 0.6)
+      .attr("opacity", 0.8)
       .duration(500)
   })
 
